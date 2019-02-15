@@ -1,10 +1,11 @@
 # DocFactory
 Purpose of this application is to ease creation of multiple, similar documents.
 
-Work mechanism:
+Work mechanism:<br/>
 Application reads data from specified input table. Basing on number of data rows, copies of document are created in specified output folder.  Then, for each copy of document, tags found in document are replaced with these stored in data table. 
-
+<br/><br/>
 Usage:
+<br/>
 You have to define input for the application. It consists from 2 files and an output directory. Description enclosed:
 
 1. Input data file:
