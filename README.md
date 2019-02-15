@@ -6,8 +6,10 @@ Application reads data from specified input table. Basing on number of data rows
 
 Usage:
 You have to define input for the application. It consists from 2 files and an output directory. Description enclosed:
+
 1. Input data file:
 You'll need an Excel file with your input data. Store your data in columns. Anywhere in the first row of the table insert "&lt;Filename&gt;". Other tags can contain any string, yet I suggest to keep it inside angle brackets. Save your data template in .xslx format.
+
 Important remarks:
 
     a) All cells inside a row must be filled in, i.e. if you've got 10 tags, you shall have 10 non-empty cells in each row. If this condition is not met, then that row will be omitted. If you want to have an empty cell, write following function to cell: ="".
@@ -19,6 +21,7 @@ Important remarks:
 2. Document template:
 Application replaces all occurences of tags in document template with values read from data file (except "<Filename>" tag).
 Your output files can be found in specified output folder.
+    
 3. Output folder:
 Specify any folder you can write to. Omitting this condition will cause an exception error and files will not be created.
 
